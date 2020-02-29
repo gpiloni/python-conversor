@@ -6,10 +6,10 @@ valor = float(valor)
 
 if opcao == 1:
     valor = valor / 4.38
-    print('$',valor)
+    print('$ {:.2f}'.format(valor))
 elif opcao == 2:
     valor = valor * 4.38
-    print('R$',valor)
+    print('R$ {:.2f}'.format(valor))
 else:
     print('Opção inválida')
 
